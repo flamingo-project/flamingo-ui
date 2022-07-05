@@ -1,10 +1,17 @@
 import React from 'react'
 
-import { ExampleComponent } from 'flamingo-ui'
+import { Fade, Button } from 'flamingo-ui'
 import 'flamingo-ui/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <div className="m-16">
+      <Fade from="t" >
+        <Button bgColor="red-500" value="asd" duration="0.8" onClick={() => alert("asd")}/>
+      </Fade>
+      
+    </div>
+  )
 }
 
 export default App

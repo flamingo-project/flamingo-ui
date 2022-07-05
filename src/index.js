@@ -1,6 +1,7 @@
-import React from 'react'
-import styles from './styles.module.css'
+import './tailwind.css'
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+import Button from "./components/Button";
+export { Button };
+
+import Fade from "./components/Fade";
+export { Fade };
