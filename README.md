@@ -15,12 +15,12 @@ npm install --save flamingo-ui
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'flamingo-ui'
+import Button from 'flamingo-ui'
 import 'flamingo-ui/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <Button bgColor="red-500" value="asd" />
   }
 }
 ```
