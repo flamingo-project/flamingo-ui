@@ -1,10 +1,10 @@
 import React from 'react'
-import {motion} from 'framer-motion/dist/framer-motion'
+import {motion} from 'framer-motion'
 
 
 export default function Button(props) {
-  const {value, bgColor, color, onClick} = props;
-  var style = "border-1 rounded-lg text-white py-2 px-3 shadow-lg font-semibold cursor-pointer";
+  const {value, bgColor, color, onClick, className} = props;
+  var style = "border-1 rounded-lg text-white py-2 px-3 shadow-lg font-semibold cursor-pointer" + " " +className;
 
   if(bgColor != undefined){
     style += ` bg-${bgColor}`;

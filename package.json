@@ -1,10 +1,13 @@
 {
-  "name": "flamingo-ui",
-  "version": "1.0.0",
+  "name": "@flamingo-project/flamingo-ui",
+  "version": "1.0.1",
   "description": "Flamingo project&#x27;s lib",
   "author": "flamingo-project",
   "license": "MIT",
-  "repository": "flamingo-project/flamingo-ui",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flamingo-project/flamingo-ui.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -55,5 +58,16 @@
   ],
   "dependencies": {
     "framer-motion": "^6.3.16"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/flamingo-project/flamingo-ui/issues"
+  },
+  "homepage": "https://github.com/flamingo-project/flamingo-ui#readme",
+  "directories": {
+    "example": "example"
+  },
+  "keywords": [
+    "ReactJS",
+    "Animated"
+  ]
 }
