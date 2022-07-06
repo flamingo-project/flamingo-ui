@@ -1,6 +1,6 @@
 {
   "name": "@flamingo-project/flamingo-ui",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Flamingo project&#x27;s lib",
   "author": "flamingo-project",
   "license": "MIT",
@@ -56,9 +56,6 @@
   "files": [
     "dist"
   ],
-  "dependencies": {
-    "framer-motion": "^6.3.16"
-  },
   "bugs": {
     "url": "https://github.com/flamingo-project/flamingo-ui/issues"
   },
@@ -69,5 +66,8 @@
   "keywords": [
     "ReactJS",
     "Animated"
-  ]
+  ],
+  "dependencies": {
+    "framer-motion": "^4.1.17"
+  }
 }
